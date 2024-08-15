@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.screen {
+    display: none;
+    text-align: center;
+}
+
+#inicio {
+    display: block;
+}
+
+h1 {
+    color: #8B008B;
+    font-size: 50px;
+}
+
+p {
+    color: #FF0000;
+    font-size: 12px;
+}
+
+button {
+    font-size: 35px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #7FFF00;
+    border: none;
+    cursor: pointer;
+}
+
+.actionBar {
+    background-color: #00008B;
+    color: white;
+    padding: 10px;
+}
+
+.actionButtons button {
+    background-color: #7FFF00;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#txtChute {
+    font-size: 40px;
+    text-align: center;
+    width: 100px;
+    margin-top: 20px;
+}

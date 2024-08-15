@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="screenManager">
+        <div id="inicio" class="screen">
+            <h1>HANGMAN GAME</h1>
+            <img src="images/7.jpg" alt="Game Image">
+            <button id="playButton">Play</button>
+            <p>LEMBRANDO QUE AS PALAVRAS SERÃO ENCONTRADAS EM INGLÊS! DICA: ANIMAIS E INSETOS!</p>
+        </div>
+
+        <div id="jogo" class="screen">
+            <div class="actionBar">
+                <h1>HANGMAN GAME</h1>
+                <div class="actionButtons">
+                    <button id="restartButton">Restart</button>
+                    <button id="exitButton">Exit</button>
+                </div>
+            </div>
+            <img id="image" src="images/7.jpg" alt="Game Image">
+            <p id="tentativas">Tentativas:</p>
+            <p id="certas">Chute uma letra:</p>
+            <input type="text" id="txtChute" maxlength="1">
+            <button id="kickButton">Kick</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
